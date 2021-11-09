@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+int n, m, x, y;
+int i, ff;
+scanf("%d %d %d %d\n", n, m, h, j);
+int p[3][3] = {(n-2, m-1), (n-1, m-2), (n+1, m-2), (n+2, m-1), (n+2, m+1), (n+1, m+2), (n-1, m+2), (n-2,m+1)}
+for(i = 0; i <= 20; i++)
+{
+  for(j =0; j <=20; j++)
+  {
+    int c, d = 0;
+    int s = 0;
+    while((i, j) = p[c][d])
+    {
+      for(c= 0; c < 3; c++)
+      {
+	if((i, j) = s)
+	{for(d = 0; d < 3; d++)
+	 {
+	   s = p[i][j]
+	 }
+	}
+      }
+    }
+  
